@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Image Selector</title>
+</head>
+<body>
+  <h1>Select an Animal</h1>
+  
+  <label for="animalSelect">Choose an animal:</label>
+  <select id="animalSelect" onchange="displayAnimalImage()">
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="elephant">Elephant</option>
+    <option value="lion">Lion</option>
+  </select>
+  
+  <br><br>
+  <img id="animalImage" src="images/dog.jpg" alt="Animal Image" width="300">
+  
+  <script src="script.js"></script>
+</body>
+</html>
